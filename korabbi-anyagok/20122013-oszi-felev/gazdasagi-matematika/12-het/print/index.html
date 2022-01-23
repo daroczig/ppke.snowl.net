@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Daróczi Gergely honlapja  &raquo; 12. hét &raquo; Nyomtatás</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Robots" content="noindex, nofollow" />
+			<link rel="stylesheet" href="http://ppke.snowl.net/wp-content/plugins/wp-print/print-css.css" type="text/css" media="screen, print" />
+			<link rel="canonical" href="http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/12-het/" />
+</head>
+<body>
+
+<main role="main" class="center">
+
+	
+		<header class="entry-header">
+
+			<span class="hat">
+				<strong>
+					- Daróczi Gergely honlapja 
+					- 
+					<span dir="ltr">http://ppke.snowl.net</span> 
+					-
+				</strong>
+			</span>
+			
+			
+			<h1 class="entry-title">
+				12. hét			</h1>
+
+			<span class="entry-date">
+
+				Szerző: 
+
+				<cite>Daróczi Gergely</cite> 
+
+				 -  
+
+				<time>	
+					2012. december 6.  csütörtök - 00:38 | 
+				</time>
+
+			  	<span>
+			  		Kategória: 
+			  		 | 
+			  	</span>	
+
+		  		<a href='#comments_controls'>
+		  			Vélemény?	  			</a>	  			
+
+				</span>
+			
+		</header>	
+
+		<div class="entry-content">
+
+			<pre style="background:#f9f9f9;color:#080808"><span style="color:#234a97">nottem</span>
+<span style="color:#234a97">df</span> <span style="color:#794938">&lt;-</span> <span style="color:#a71d5d;font-style:italic">data.frame</span>(<span style="color:#234a97">f</span> <span style="color:#794938">=</span> <span style="color:#234a97">nottem</span>)
+str(<span style="color:#234a97">df</span>)
+
+<span style="color:#bf4f24">f2c</span> <span style="color:#794938">&lt;-</span> <span style="color:#794938">function</span>(<span style="color:#234a97">x</span>) (<span style="color:#234a97">x</span><span style="color:#794938">-</span><span style="color:#811f24;font-weight:700">32</span>)<span style="color:#794938">*</span><span style="color:#811f24;font-weight:700">5</span><span style="color:#794938">/</span><span style="color:#811f24;font-weight:700">9</span>
+<span style="color:#234a97">df</span> <span style="color:#794938">&lt;-</span> <span style="color:#a71d5d;font-style:italic">data.frame</span>(<span style="color:#234a97">c</span> <span style="color:#794938">=</span>f2c(<span style="color:#234a97">nottem</span>))
+str(<span style="color:#234a97">df</span>)
+
+<span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">ho</span> <span style="color:#794938">&lt;-</span> <span style="color:#811f24;font-weight:700">1</span><span style="color:#794938">:</span><span style="color:#811f24;font-weight:700">12</span>
+<span style="color:#234a97">fit</span> <span style="color:#794938">&lt;-</span> lm(<span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">c</span> <span style="color:#794938">~</span> <span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">ho</span>)
+<span style="color:#234a97">fit</span>
+plot(<span style="color:#811f24;font-weight:700">1</span><span style="color:#794938">:</span><span style="color:#811f24;font-weight:700">240</span>, <span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">c</span>, <span style="color:#234a97">type</span> <span style="color:#794938">=</span> <span style="color:#0b6125">"l"</span>)
+lines(predict(<span style="color:#234a97">fit</span>), <span style="color:#234a97">col</span>=<span style="color:#0b6125">"red"</span>)
+
+<span style="color:#234a97">fit</span> <span style="color:#794938">&lt;-</span> lm(<span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">c</span> <span style="color:#794938">~</span> poly(<span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">ho</span>, <span style="color:#811f24;font-weight:700">2</span>))
+<span style="color:#234a97">fit</span>
+plot(<span style="color:#811f24;font-weight:700">1</span><span style="color:#794938">:</span><span style="color:#811f24;font-weight:700">240</span>, <span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">c</span>, <span style="color:#234a97">type</span> <span style="color:#794938">=</span> <span style="color:#0b6125">"l"</span>)
+lines(predict(<span style="color:#234a97">fit</span>), <span style="color:#234a97">col</span>=<span style="color:#0b6125">"red"</span>)
+
+decompose(<span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">c</span>)
+plot(decompose(<span style="color:#234a97">df</span><span style="color:#794938">$</span><span style="color:#234a97">c</span>))
+
+</pre>
+
+
+		</div>
+
+		
+	<div class="comments">
+			</div>
+	
+	<footer class="footer">
+		<p>
+			A bejegyzés forrásoldala: 
+			Daróczi Gergely honlapja: 
+
+			<strong dir="ltr">
+				http://ppke.snowl.net			</strong>
+		</p>
+
+		<p>
+			URL a bejegyzéshez: 
+			<strong dir="ltr">
+				http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/12-het/			</strong>
+		</p>
+		
+					<p></p>
+		
+		<p style="text-align: right;" id="print-link">
+			<a href="#Print" onclick="window.print(); return false;" title="NYOMTATÁS">
+				--> 
+				Nyomtatás				indítása.			</a> 
+		</p>
+
+		
+		<p style="text-align: center;">
+			Copyright &copy; 2010 Daróczi Gergely, PPKE BTK. Majdnem minden jog fenntartva.		</p>
+	</footer>
+
+</main>
+
+
+</body>
+</html>

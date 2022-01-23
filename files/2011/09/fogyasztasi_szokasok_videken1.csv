@@ -1,0 +1,401 @@
+"","eletkor","nem","iskola","varos","fagyi","omlett","kremes","bor","meggyszorp","tonic","kola","vernarancsle","citromle"
+"1",45,"nő","egyetem","Kalocsa",5,6,6,8,1,6,6,3,3
+"2",27,"nő","általános iskola","Érd",-1,-2,-1,10,3,6,-1,2,6
+"3",46,"férfi","középiskola","Kiskungyarmat",8,7,8,9,6,0,7,4,-1
+"4",49,"férfi","középiskola","Kalocsa",4,5,1,9,2,6,3,4,-2
+"5",50,"nő","középiskola","Kalocsa",6,10,6,11,6,4,5,5,3
+"6",51,"nő","középiskola","Kiskungyarmat",8,10,10,12,7,-2,8,8,-2
+"7",35,"nő","általános iskola","Érd",-3,0,1,5,1,9,-2,-2,-1
+"8",26,"férfi","középiskola","Kiskungyarmat",10,7,10,7,6,-2,5,7,-1
+"9",21,"nő","középiskola","Kiskungyarmat",8,8,10,5,4,1,7,8,2
+"10",47,"nő","középiskola","Kiskungyarmat",8,8,7,11,5,-1,7,8,-3
+"11",20,"nő","általános iskola","Érd",1,3,0,4,-1,6,-1,0,3
+"12",46,"nő","általános iskola","Érd",1,-1,-2,8,2,7,1,-1,0
+"13",27,"nő","egyetem","Érd",0,2,1,5,2,8,0,0,-1
+"14",54,"férfi","általános iskola","Érd",-2,-2,0,9,3,8,3,2,-1
+"15",28,"nő","egyetem","Érd",-2,3,-2,7,2,4,1,0,-1
+"16",37,"férfi","középiskola","Kalocsa",4,11,6,9,2,6,4,1,3
+"17",44,"férfi","középiskola","Kiskungyarmat",9,8,7,8,8,1,8,9,1
+"18",39,"nő","egyetem","Kalocsa",4,5,5,11,1,5,4,2,2
+"19",18,"nő","egyetem","Kiskungyarmat",9,6,6,7,7,0,4,9,1
+"20",52,"férfi","középiskola","Kiskungyarmat",6,9,6,9,6,0,7,9,2
+"21",34,"férfi","általános iskola","Érd",-3,2,1,10,-1,4,1,3,3
+"22",49,"férfi","általános iskola","Kalocsa",2,-3,3,10,2,6,2,6,4
+"23",23,"férfi","általános iskola","Érd",0,0,0,8,3,4,-1,-1,3
+"24",26,"férfi","általános iskola","Kalocsa",6,1,4,8,4,5,6,3,4
+"25",43,"nő","egyetem","Érd",2,1,-2,6,-1,7,1,-1,2
+"26",53,"nő","egyetem","Kalocsa",3,7,2,7,3,4,2,3,-5
+"27",39,"nő","általános iskola","Érd",0,2,0,9,0,5,0,1,4
+"28",23,"nő","általános iskola","Kalocsa",2,-3,5,7,6,2,5,3,3
+"29",17,"férfi","általános iskola","Érd",-2,-2,0,8,-1,8,1,2,6
+"30",54,"férfi","középiskola","Kalocsa",4,5,5,14,5,1,2,4,1
+"31",31,"férfi","egyetem","Kalocsa",4,2,6,9,6,5,6,3,0
+"32",17,"nő","általános iskola","Kalocsa",6,-1,3,6,5,4,4,3,6
+"33",23,"nő","egyetem","Érd",-3,3,1,9,-2,6,0,-2,4
+"34",34,"nő","középiskola","Kalocsa",6,9,1,7,4,4,1,3,4
+"35",23,"nő","középiskola","Kiskungyarmat",6,10,10,6,5,-1,7,6,6
+"36",39,"férfi","középiskola","Kiskungyarmat",8,7,6,12,7,0,5,9,-2
+"37",54,"férfi","középiskola","Kiskungyarmat",9,10,10,12,5,3,4,6,1
+"38",32,"férfi","egyetem","Kalocsa",6,5,4,9,6,4,5,6,1
+"39",24,"nő","középiskola","Kiskungyarmat",9,9,7,7,5,3,7,8,3
+"40",35,"nő","általános iskola","Érd",-3,-1,-2,11,3,6,1,0,1
+"41",48,"férfi","egyetem","Kiskungyarmat",9,7,5,8,6,-2,7,5,0
+"42",21,"nő","általános iskola","Érd",1,-1,2,8,2,7,-1,0,4
+"43",46,"férfi","általános iskola","Érd",1,1,-1,13,-1,4,2,3,3
+"44",30,"nő","általános iskola","Kalocsa",6,0,4,11,6,4,5,6,1
+"45",16,"férfi","egyetem","Érd",2,5,1,10,-1,5,3,2,6
+"46",49,"nő","középiskola","Kiskungyarmat",9,8,9,12,7,-1,6,4,0
+"47",35,"nő","középiskola","Kiskungyarmat",5,5,9,11,5,2,8,8,1
+"48",43,"nő","középiskola","Kiskungyarmat",10,9,10,10,4,3,6,4,1
+"49",31,"férfi","középiskola","Kiskungyarmat",10,11,8,7,5,1,8,4,4
+"50",34,"férfi","középiskola","Kiskungyarmat",9,10,8,8,8,-2,7,9,1
+"51",33,"nő","középiskola","Kiskungyarmat",8,10,8,9,8,2,7,7,0
+"52",41,"férfi","egyetem","Kiskungyarmat",9,4,8,10,6,0,8,8,0
+"53",24,"férfi","középiskola","Kiskungyarmat",9,10,6,9,7,-2,6,9,4
+"54",31,"nő","középiskola","Kiskungyarmat",6,6,8,7,6,3,8,6,5
+"55",38,"nő","általános iskola","Érd",0,1,-2,5,2,6,-2,-2,0
+"56",31,"nő","középiskola","Kiskungyarmat",8,9,5,8,7,-1,5,5,1
+"57",47,"nő","középiskola","Kiskungyarmat",10,9,10,15,6,3,8,4,0
+"58",34,"férfi","középiskola","Kiskungyarmat",7,8,9,8,5,2,5,8,1
+"59",40,"férfi","középiskola","Kiskungyarmat",10,9,5,11,7,0,7,8,4
+"60",35,"nő","egyetem","Kalocsa",2,1,2,6,2,1,6,5,-2
+"61",40,"férfi","általános iskola","Érd",2,2,-2,13,1,8,0,0,1
+"62",55,"nő","egyetem","Érd",1,2,1,10,0,4,2,3,3
+"63",34,"férfi","általános iskola","Érd",2,2,1,7,2,8,2,0,2
+"64",40,"férfi","középiskola","Kiskungyarmat",10,5,6,10,7,2,7,4,2
+"65",29,"nő","egyetem","Kiskungyarmat",7,6,7,11,8,-1,6,9,-2
+"66",21,"nő","általános iskola","Érd",1,-1,-1,7,0,6,1,1,4
+"67",32,"férfi","általános iskola","Érd",-3,-2,-1,5,-2,4,-1,-2,5
+"68",36,"nő","egyetem","Kiskungyarmat",8,4,10,12,4,-2,9,8,-1
+"69",39,"nő","egyetem","Kiskungyarmat",6,2,7,7,4,3,9,4,2
+"70",20,"férfi","egyetem","Érd",-1,5,1,6,1,8,-1,-1,2
+"71",53,"férfi","középiskola","Kiskungyarmat",8,10,10,14,7,-2,5,5,0
+"72",40,"férfi","középiskola","Kiskungyarmat",7,5,9,9,8,-1,6,7,1
+"73",30,"férfi","általános iskola","Érd",-2,1,0,3,-1,5,0,-2,2
+"74",24,"nő","általános iskola","Érd",0,3,-1,6,0,7,0,2,1
+"75",39,"férfi","középiskola","Kiskungyarmat",7,6,9,7,4,-2,5,8,2
+"76",24,"nő","középiskola","Kiskungyarmat",8,10,6,7,7,2,7,6,0
+"77",18,"férfi","középiskola","Kiskungyarmat",9,10,5,10,8,3,9,6,-1
+"78",50,"férfi","középiskola","Kiskungyarmat",5,11,9,11,8,3,8,9,-1
+"79",55,"férfi","általános iskola","Érd",1,-2,2,9,2,9,3,-1,1
+"80",55,"nő","általános iskola","Kalocsa",6,2,3,9,4,2,3,2,-2
+"81",51,"férfi","általános iskola","Érd",-2,3,-3,7,-1,7,3,0,2
+"82",24,"nő","egyetem","Érd",0,2,2,9,-2,7,-1,0,4
+"83",50,"nő","középiskola","Kiskungyarmat",5,9,8,13,8,0,8,5,0
+"84",16,"férfi","középiskola","Kalocsa",2,6,4,3,4,6,5,6,1
+"85",46,"férfi","általános iskola","Érd",0,1,2,12,-2,8,2,0,-2
+"86",37,"férfi","középiskola","Kiskungyarmat",9,7,10,8,8,-2,4,8,1
+"87",20,"férfi","általános iskola","Érd",-1,-3,0,8,-2,7,-1,-1,8
+"88",53,"férfi","általános iskola","Kalocsa",4,0,1,10,6,3,6,2,2
+"89",37,"nő","egyetem","Kalocsa",1,4,3,9,4,2,3,3,-2
+"90",24,"férfi","középiskola","Kalocsa",2,9,4,8,1,2,6,5,7
+"91",51,"nő","középiskola","Kiskungyarmat",6,7,6,10,9,1,7,6,0
+"92",27,"nő","középiskola","Kiskungyarmat",9,9,5,11,8,1,9,4,1
+"93",29,"férfi","általános iskola","Érd",0,3,-1,12,2,7,-2,-1,1
+"94",20,"férfi","általános iskola","Érd",2,1,0,9,0,6,2,-1,1
+"95",53,"nő","általános iskola","Érd",-3,2,-2,11,2,4,-2,3,2
+"96",44,"férfi","középiskola","Kalocsa",2,9,5,9,6,5,2,6,2
+"97",35,"férfi","általános iskola","Érd",2,3,0,10,-2,7,2,-2,6
+"98",34,"nő","általános iskola","Érd",0,3,1,7,-1,5,1,-2,4
+"99",45,"nő","általános iskola","Kalocsa",1,0,6,7,1,4,5,5,-1
+"100",29,"férfi","középiskola","Kalocsa",1,9,2,8,1,6,3,6,3
+"101",23,"nő","egyetem","Kiskungyarmat",5,2,9,5,8,1,9,4,2
+"102",18,"férfi","egyetem","Kiskungyarmat",5,1,6,8,5,-1,8,9,4
+"103",44,"nő","egyetem","Érd",1,7,1,12,0,4,2,2,0
+"104",21,"férfi","általános iskola","Érd",2,-2,-2,10,-1,7,-1,2,3
+"105",54,"férfi","általános iskola","Érd",2,0,2,10,-1,7,0,3,-2
+"106",19,"nő","egyetem","Érd",-1,6,-3,8,3,6,-2,1,3
+"107",29,"férfi","egyetem","Érd",1,1,-3,11,2,7,-1,2,1
+"108",43,"férfi","általános iskola","Érd",-2,-1,1,9,-2,5,-2,3,5
+"109",45,"nő","egyetem","Kiskungyarmat",6,5,8,10,5,2,9,5,3
+"110",33,"férfi","általános iskola","Érd",-2,-2,-2,9,0,4,-2,1,2
+"111",28,"férfi","egyetem","Kalocsa",5,4,5,8,4,3,6,4,3
+"112",50,"férfi","egyetem","Érd",-3,3,2,14,1,4,0,0,2
+"113",25,"férfi","egyetem","Kiskungyarmat",6,1,8,10,9,3,9,8,5
+"114",40,"férfi","általános iskola","Érd",0,-2,2,11,1,8,-2,-2,1
+"115",47,"nő","középiskola","Kiskungyarmat",6,10,7,13,8,2,9,6,-1
+"116",32,"nő","középiskola","Kalocsa",2,6,6,12,5,4,6,1,4
+"117",45,"férfi","egyetem","Kiskungyarmat",10,6,8,9,9,2,8,9,3
+"118",46,"nő","középiskola","Kiskungyarmat",9,5,10,9,7,1,8,4,0
+"119",53,"nő","középiskola","Kalocsa",6,6,1,12,6,4,5,5,-2
+"120",42,"nő","középiskola","Kalocsa",3,8,4,10,4,5,2,1,0
+"121",24,"férfi","középiskola","Kalocsa",2,10,3,12,6,5,1,2,2
+"122",26,"férfi","középiskola","Kalocsa",6,6,1,12,6,4,2,4,2
+"123",26,"férfi","egyetem","Kalocsa",4,1,6,10,3,6,3,2,0
+"124",55,"férfi","egyetem","Kiskungyarmat",10,4,9,12,8,3,6,5,-1
+"125",29,"nő","középiskola","Kiskungyarmat",7,7,7,11,6,3,6,9,2
+"126",50,"férfi","középiskola","Kalocsa",4,7,3,11,3,2,2,1,3
+"127",18,"férfi","középiskola","Kalocsa",6,9,3,6,6,3,5,3,1
+"128",47,"nő","általános iskola","Kalocsa",5,0,5,12,6,5,5,1,-2
+"129",25,"nő","általános iskola","Érd",1,2,0,11,0,6,2,1,6
+"130",20,"nő","egyetem","Kalocsa",4,2,5,9,5,2,6,2,5
+"131",39,"férfi","általános iskola","Érd",-3,3,-3,9,2,4,-2,0,4
+"132",39,"nő","egyetem","Kalocsa",6,2,3,6,6,4,2,1,1
+"133",28,"férfi","középiskola","Kalocsa",5,9,4,9,1,3,2,1,0
+"134",31,"férfi","általános iskola","Érd",-2,0,2,11,0,6,-1,-1,4
+"135",46,"férfi","középiskola","Kalocsa",3,7,2,10,6,3,2,5,2
+"136",25,"nő","középiskola","Kalocsa",5,11,2,11,3,1,2,5,3
+"137",33,"férfi","középiskola","Kiskungyarmat",5,8,8,10,4,-1,8,7,3
+"138",19,"nő","általános iskola","Kalocsa",3,2,4,8,3,5,5,5,2
+"139",16,"nő","egyetem","Érd",1,1,0,7,0,5,3,0,6
+"140",46,"nő","középiskola","Kiskungyarmat",5,7,10,13,7,0,8,9,1
+"141",52,"nő","általános iskola","Kalocsa",5,3,4,12,3,5,4,6,-3
+"142",19,"nő","általános iskola","Érd",2,-3,1,7,-2,6,3,0,5
+"143",37,"nő","egyetem","Kiskungyarmat",8,7,6,11,4,2,5,6,6
+"144",27,"nő","középiskola","Kalocsa",3,8,6,8,5,4,6,2,5
+"145",35,"férfi","általános iskola","Érd",2,-1,1,8,3,8,3,3,1
+"146",37,"férfi","általános iskola","Érd",-3,-2,-2,11,3,6,2,0,3
+"147",42,"nő","egyetem","Kiskungyarmat",9,2,9,13,6,-1,6,7,0
+"148",52,"nő","általános iskola","Kalocsa",1,2,4,11,3,2,6,4,0
+"149",21,"férfi","középiskola","Kiskungyarmat",9,7,8,6,7,3,8,5,3
+"150",45,"férfi","általános iskola","Érd",-3,0,1,12,3,7,-1,-1,-1
+"151",16,"férfi","általános iskola","Érd",-1,-2,-1,10,0,9,-1,2,4
+"152",37,"nő","általános iskola","Érd",-1,-1,-1,12,-1,7,0,1,3
+"153",35,"nő","általános iskola","Érd",-3,3,-3,10,3,5,-2,0,2
+"154",21,"nő","egyetem","Kiskungyarmat",9,1,6,10,8,1,7,7,4
+"155",26,"nő","egyetem","Kalocsa",5,4,3,7,6,5,2,1,0
+"156",31,"férfi","egyetem","Kiskungyarmat",7,6,6,6,9,1,9,5,1
+"157",36,"nő","egyetem","Érd",-2,3,1,7,3,9,0,3,3
+"158",35,"férfi","középiskola","Kiskungyarmat",7,8,10,9,8,1,5,5,3
+"159",48,"nő","általános iskola","Kalocsa",1,2,5,13,3,5,4,1,1
+"160",19,"férfi","középiskola","Kalocsa",3,10,6,10,5,4,3,5,6
+"161",16,"férfi","általános iskola","Érd",0,2,2,6,3,8,1,0,5
+"162",48,"férfi","középiskola","Kiskungyarmat",5,7,10,8,8,-2,9,9,0
+"163",55,"nő","egyetem","Érd",-1,2,2,7,3,9,-1,3,-1
+"164",40,"nő","középiskola","Kalocsa",1,8,5,12,6,4,6,1,1
+"165",33,"nő","egyetem","Kalocsa",5,2,5,8,1,6,4,3,-1
+"166",18,"férfi","általános iskola","Kalocsa",5,2,1,10,6,1,6,1,6
+"167",41,"férfi","egyetem","Érd",-2,5,-3,10,3,4,2,1,0
+"168",30,"nő","általános iskola","Kalocsa",5,1,4,10,2,6,6,4,1
+"169",35,"férfi","általános iskola","Kalocsa",2,0,1,6,4,5,6,6,2
+"170",31,"férfi","általános iskola","Érd",-1,0,-3,7,2,6,0,0,4
+"171",49,"nő","általános iskola","Érd",0,2,0,11,1,7,2,3,1
+"172",35,"nő","középiskola","Kalocsa",2,8,4,10,2,6,2,4,4
+"173",16,"férfi","egyetem","Érd",-3,5,0,6,1,9,2,-1,5
+"174",16,"nő","középiskola","Kalocsa",5,6,1,8,1,2,2,5,4
+"175",46,"férfi","egyetem","Kiskungyarmat",7,6,10,13,5,-2,8,5,-3
+"176",29,"férfi","általános iskola","Érd",-3,0,0,8,3,7,3,-2,2
+"177",48,"nő","általános iskola","Érd",0,0,-3,10,-2,9,0,1,-3
+"178",30,"férfi","általános iskola","Érd",2,0,2,9,-1,4,0,3,1
+"179",54,"nő","általános iskola","Kalocsa",3,-1,5,10,3,2,4,5,-2
+"180",20,"nő","egyetem","Kalocsa",4,3,3,7,3,5,5,1,6
+"181",46,"férfi","középiskola","Kalocsa",4,8,1,16,2,2,4,3,-3
+"182",53,"nő","általános iskola","Kalocsa",4,-2,5,9,4,1,2,2,1
+"183",50,"férfi","középiskola","Kalocsa",4,10,5,9,3,3,2,6,3
+"184",27,"nő","általános iskola","Kalocsa",6,-1,1,8,6,2,3,5,1
+"185",54,"nő","középiskola","Kiskungyarmat",10,5,10,7,5,2,4,8,2
+"186",26,"nő","egyetem","Kalocsa",3,3,3,6,3,6,5,1,0
+"187",20,"nő","egyetem","Kiskungyarmat",5,4,7,5,4,2,4,4,6
+"188",52,"férfi","egyetem","Kiskungyarmat",6,5,8,11,9,0,5,5,1
+"189",29,"férfi","egyetem","Kiskungyarmat",6,3,8,7,5,3,6,7,2
+"190",42,"férfi","egyetem","Kalocsa",1,2,4,10,3,1,3,6,1
+"191",29,"férfi","középiskola","Kiskungyarmat",7,9,6,11,9,3,7,9,2
+"192",23,"férfi","középiskola","Kalocsa",5,5,4,5,2,4,2,6,6
+"193",37,"férfi","általános iskola","Kalocsa",6,3,4,13,5,3,6,1,0
+"194",22,"férfi","középiskola","Kiskungyarmat",10,5,9,1,9,3,8,8,2
+"195",50,"férfi","egyetem","Érd",1,7,2,11,2,5,0,2,0
+"196",26,"nő","középiskola","Kalocsa",5,6,3,12,5,3,3,2,1
+"197",55,"férfi","általános iskola","Érd",0,3,1,17,3,5,2,0,-3
+"198",46,"nő","általános iskola","Érd",-2,-3,-1,11,0,6,0,2,0
+"199",31,"férfi","egyetem","Kiskungyarmat",7,6,7,8,5,3,6,7,0
+"200",36,"férfi","egyetem","Kalocsa",4,6,1,13,3,2,5,1,1
+"201",32,"férfi","egyetem","Kiskungyarmat",7,4,8,10,7,-2,9,4,3
+"202",23,"nő","egyetem","Érd",-1,6,-3,4,0,7,1,1,6
+"203",43,"nő","középiskola","Kiskungyarmat",10,9,10,11,5,1,8,4,3
+"204",48,"nő","általános iskola","Érd",-1,-3,-2,14,-2,9,2,2,-3
+"205",43,"férfi","középiskola","Kalocsa",1,9,2,10,5,2,5,1,7
+"206",16,"nő","általános iskola","Érd",2,-3,-2,4,0,6,3,0,3
+"207",41,"férfi","egyetem","Érd",0,2,-2,12,3,6,2,0,-2
+"208",32,"férfi","középiskola","Kalocsa",4,11,3,6,3,5,1,3,2
+"209",28,"férfi","általános iskola","Érd",-3,1,-1,7,-1,7,1,1,2
+"210",29,"férfi","egyetem","Kiskungyarmat",6,2,10,9,5,1,6,7,2
+"211",52,"nő","középiskola","Kiskungyarmat",10,11,10,14,8,-1,5,6,0
+"212",34,"nő","egyetem","Érd",0,2,1,12,2,8,-2,-1,3
+"213",34,"férfi","középiskola","Kiskungyarmat",7,11,9,9,8,-1,4,8,1
+"214",39,"férfi","általános iskola","Kalocsa",3,1,5,11,1,4,4,6,-1
+"215",25,"férfi","egyetem","Kiskungyarmat",6,4,5,8,6,3,8,6,2
+"216",47,"férfi","középiskola","Kiskungyarmat",8,5,9,14,4,-2,8,6,-1
+"217",24,"nő","egyetem","Kalocsa",2,7,6,7,2,6,4,6,4
+"218",26,"férfi","egyetem","Kalocsa",2,1,6,11,5,6,2,2,1
+"219",35,"nő","egyetem","Kalocsa",4,2,1,8,1,2,4,5,0
+"220",22,"férfi","középiskola","Kiskungyarmat",6,11,8,8,4,2,5,9,0
+"221",35,"nő","középiskola","Kalocsa",2,11,5,10,6,6,6,4,5
+"222",52,"férfi","középiskola","Kiskungyarmat",5,10,8,10,4,-2,9,7,-1
+"223",35,"nő","középiskola","Kalocsa",1,8,6,9,6,1,1,1,-1
+"224",34,"férfi","egyetem","Kalocsa",2,7,3,13,2,5,1,3,4
+"225",29,"férfi","egyetem","Kiskungyarmat",7,5,8,6,5,-2,6,4,5
+"226",54,"férfi","általános iskola","Érd",-1,-1,-2,12,3,5,0,0,0
+"227",29,"nő","egyetem","Kalocsa",1,5,2,6,3,1,6,3,4
+"228",38,"nő","egyetem","Kiskungyarmat",5,7,10,13,6,0,7,9,3
+"229",27,"férfi","középiskola","Kiskungyarmat",5,5,9,11,6,1,6,8,4
+"230",30,"férfi","középiskola","Kalocsa",2,11,4,12,5,3,4,4,3
+"231",50,"férfi","középiskola","Kalocsa",1,8,6,11,1,4,2,5,0
+"232",39,"férfi","általános iskola","Érd",1,-2,1,8,1,8,2,0,3
+"233",40,"nő","középiskola","Kiskungyarmat",8,7,6,10,6,2,6,6,0
+"234",44,"nő","középiskola","Kiskungyarmat",5,11,9,7,9,0,9,8,3
+"235",28,"férfi","középiskola","Kiskungyarmat",9,7,7,7,6,1,8,6,4
+"236",36,"nő","középiskola","Kiskungyarmat",9,6,8,8,8,0,7,9,5
+"237",48,"férfi","általános iskola","Érd",1,1,2,13,3,4,1,3,2
+"238",23,"nő","középiskola","Kiskungyarmat",7,11,7,7,4,3,9,7,5
+"239",30,"férfi","egyetem","Kiskungyarmat",6,1,7,7,9,-1,6,8,1
+"240",16,"férfi","egyetem","Kalocsa",1,3,1,8,4,3,3,5,2
+"241",49,"nő","középiskola","Kiskungyarmat",5,11,8,11,5,2,7,5,1
+"242",48,"férfi","középiskola","Kiskungyarmat",8,11,6,10,4,1,6,4,-2
+"243",45,"nő","középiskola","Kiskungyarmat",6,7,6,11,7,2,9,6,2
+"244",52,"férfi","általános iskola","Érd",1,-2,2,13,1,6,-1,1,-3
+"245",46,"férfi","középiskola","Kiskungyarmat",6,8,9,11,6,1,9,6,0
+"246",40,"férfi","általános iskola","Érd",0,0,2,11,-2,8,-1,3,4
+"247",48,"nő","középiskola","Kiskungyarmat",8,8,7,11,7,2,4,6,0
+"248",34,"férfi","általános iskola","Kalocsa",4,0,1,7,1,4,5,1,1
+"249",49,"férfi","egyetem","Kalocsa",2,1,3,10,6,5,1,2,3
+"250",20,"nő","középiskola","Kiskungyarmat",7,9,9,8,9,-2,6,9,7
+"251",43,"férfi","általános iskola","Kalocsa",2,2,2,14,1,3,3,1,2
+"252",43,"nő","általános iskola","Érd",1,-1,-1,7,1,5,-1,1,2
+"253",44,"nő","általános iskola","Érd",-3,1,0,8,2,4,0,2,4
+"254",52,"férfi","középiskola","Kiskungyarmat",7,9,6,14,6,3,9,5,1
+"255",31,"nő","középiskola","Kiskungyarmat",10,6,9,7,5,3,9,8,5
+"256",40,"nő","általános iskola","Érd",-3,1,-2,8,2,7,0,2,-1
+"257",20,"férfi","általános iskola","Kalocsa",4,3,3,7,6,5,1,1,3
+"258",47,"férfi","általános iskola","Kalocsa",6,-1,5,12,4,5,4,6,-1
+"259",50,"férfi","egyetem","Kalocsa",2,3,4,12,5,1,1,4,3
+"260",36,"férfi","egyetem","Kalocsa",4,7,5,9,1,1,1,4,1
+"261",31,"férfi","középiskola","Kiskungyarmat",5,5,9,13,7,2,5,9,0
+"262",42,"férfi","egyetem","Kiskungyarmat",8,3,7,7,9,-2,5,6,0
+"263",26,"nő","egyetem","Kalocsa",6,3,4,8,5,1,2,5,2
+"264",51,"nő","középiskola","Kiskungyarmat",7,8,10,15,7,3,8,7,3
+"265",49,"nő","egyetem","Kiskungyarmat",6,5,7,11,8,2,6,8,3
+"266",22,"nő","általános iskola","Érd",0,1,0,3,0,7,-2,1,4
+"267",49,"nő","egyetem","Kalocsa",2,4,4,9,2,6,1,6,0
+"268",36,"férfi","egyetem","Kiskungyarmat",6,1,7,13,6,3,7,5,1
+"269",43,"férfi","egyetem","Kiskungyarmat",10,3,5,8,8,1,8,5,5
+"270",21,"nő","általános iskola","Érd",2,2,1,8,0,8,2,3,5
+"271",43,"férfi","egyetem","Érd",2,7,0,10,1,4,-1,-1,2
+"272",23,"nő","egyetem","Kalocsa",6,2,5,8,1,5,5,5,-1
+"273",21,"férfi","egyetem","Érd",0,6,0,8,-1,9,0,-2,2
+"274",30,"férfi","egyetem","Kalocsa",4,3,3,7,6,5,5,6,2
+"275",18,"nő","egyetem","Kiskungyarmat",5,1,8,10,6,-2,8,8,3
+"276",33,"férfi","középiskola","Kalocsa",1,8,4,6,1,2,1,2,1
+"277",41,"férfi","középiskola","Kiskungyarmat",6,6,5,8,5,3,7,5,1
+"278",52,"férfi","általános iskola","Kalocsa",5,-3,5,11,6,3,6,5,-5
+"279",27,"férfi","középiskola","Kiskungyarmat",9,11,5,7,7,1,5,4,5
+"280",42,"férfi","egyetem","Kiskungyarmat",9,4,5,10,4,-1,9,9,1
+"281",46,"nő","egyetem","Érd",-3,7,-3,10,3,8,-1,1,3
+"282",42,"férfi","egyetem","Kiskungyarmat",6,7,9,10,9,3,7,7,1
+"283",22,"férfi","egyetem","Kalocsa",6,7,6,7,3,4,5,5,2
+"284",32,"nő","egyetem","Kalocsa",2,7,3,13,1,3,4,6,1
+"285",47,"nő","egyetem","Kiskungyarmat",8,3,6,6,5,0,9,6,-3
+"286",50,"férfi","általános iskola","Érd",-1,-2,-2,13,-2,5,-2,-1,1
+"287",51,"férfi","egyetem","Érd",0,2,0,10,2,5,0,0,2
+"288",28,"nő","középiskola","Kiskungyarmat",6,10,8,6,8,3,4,5,1
+"289",27,"nő","általános iskola","Kalocsa",6,0,3,6,1,1,3,4,5
+"290",37,"férfi","egyetem","Kiskungyarmat",7,4,8,9,7,3,6,4,0
+"291",33,"férfi","általános iskola","Érd",0,0,0,4,-2,9,-1,0,3
+"292",28,"férfi","középiskola","Kalocsa",6,5,6,12,6,6,4,1,3
+"293",49,"férfi","általános iskola","Érd",1,0,1,12,-1,4,-1,-2,5
+"294",19,"férfi","egyetem","Kalocsa",2,5,6,4,3,2,4,3,7
+"295",21,"nő","egyetem","Kiskungyarmat",8,6,7,8,8,0,5,6,3
+"296",23,"férfi","általános iskola","Kalocsa",4,-1,1,9,3,2,2,2,3
+"297",50,"férfi","általános iskola","Érd",-2,-2,-2,11,3,7,0,1,-2
+"298",25,"férfi","egyetem","Érd",-3,5,-2,9,-1,6,-2,3,0
+"299",42,"férfi","általános iskola","Érd",0,-2,-3,11,3,7,-2,3,5
+"300",32,"nő","középiskola","Kiskungyarmat",10,8,6,8,4,1,6,7,3
+"301",21,"férfi","középiskola","Kiskungyarmat",7,9,5,5,7,-1,9,6,1
+"302",19,"férfi","középiskola","Kalocsa",5,11,3,6,4,6,3,2,3
+"303",31,"nő","egyetem","Kiskungyarmat",10,6,10,11,7,-1,4,4,5
+"304",51,"nő","egyetem","Érd",0,6,-1,9,-1,5,1,2,3
+"305",28,"férfi","általános iskola","Érd",-3,3,-3,8,3,9,0,2,4
+"306",34,"nő","általános iskola","Érd",-3,0,0,10,3,8,0,1,6
+"307",21,"nő","egyetem","Érd",-1,5,-2,3,3,4,1,2,3
+"308",33,"férfi","középiskola","Kiskungyarmat",5,6,9,12,4,-1,8,9,-2
+"309",35,"nő","középiskola","Kalocsa",4,11,3,11,6,1,1,5,4
+"310",30,"férfi","egyetem","Kalocsa",4,7,1,10,4,1,5,5,0
+"311",33,"férfi","középiskola","Kiskungyarmat",7,5,10,11,8,-1,7,6,0
+"312",19,"férfi","általános iskola","Érd",2,1,-1,7,1,4,1,-2,2
+"313",55,"nő","egyetem","Érd",-1,6,-2,10,1,7,-1,0,0
+"314",35,"nő","egyetem","Kalocsa",2,7,5,8,2,2,2,3,6
+"315",35,"nő","középiskola","Kalocsa",2,7,2,11,6,3,1,6,-1
+"316",55,"nő","egyetem","Kalocsa",3,3,6,12,2,4,6,3,-1
+"317",49,"férfi","középiskola","Kiskungyarmat",5,7,8,9,7,3,5,6,2
+"318",48,"nő","egyetem","Kiskungyarmat",6,2,7,8,6,2,8,5,3
+"319",52,"nő","egyetem","Kiskungyarmat",10,7,7,11,7,3,4,9,2
+"320",35,"nő","egyetem","Kalocsa",3,3,3,6,2,4,1,2,2
+"321",21,"férfi","általános iskola","Érd",-3,2,0,7,-2,5,2,0,2
+"322",26,"férfi","általános iskola","Érd",-3,0,2,7,-1,4,3,-2,4
+"323",40,"férfi","általános iskola","Érd",2,1,1,11,0,9,0,3,4
+"324",33,"férfi","egyetem","Érd",0,2,1,11,-1,7,-2,2,2
+"325",16,"nő","általános iskola","Érd",-1,0,2,6,0,6,2,2,7
+"326",18,"férfi","általános iskola","Kalocsa",5,3,2,9,5,3,6,6,5
+"327",39,"férfi","középiskola","Kalocsa",3,8,5,11,4,6,2,4,0
+"328",29,"férfi","egyetem","Kalocsa",2,4,5,9,2,2,2,5,4
+"329",40,"nő","általános iskola","Érd",-2,1,-2,9,0,5,3,0,1
+"330",18,"nő","általános iskola","Érd",1,2,-2,8,-1,9,0,2,5
+"331",27,"férfi","egyetem","Kiskungyarmat",7,5,5,5,5,-1,5,9,4
+"332",38,"férfi","középiskola","Kiskungyarmat",5,6,9,9,8,-1,6,7,-1
+"333",16,"férfi","középiskola","Kiskungyarmat",6,7,9,12,7,1,7,7,4
+"334",34,"férfi","középiskola","Kalocsa",3,8,6,10,3,6,2,3,1
+"335",30,"férfi","középiskola","Kalocsa",3,6,6,6,2,2,2,2,2
+"336",42,"nő","egyetem","Érd",0,7,-3,11,2,8,-2,0,0
+"337",28,"nő","középiskola","Kalocsa",1,5,6,9,2,3,1,5,4
+"338",50,"férfi","egyetem","Érd",2,1,-3,10,-1,5,-2,-2,-3
+"339",40,"férfi","középiskola","Kiskungyarmat",9,9,7,14,8,3,8,7,3
+"340",48,"nő","egyetem","Kiskungyarmat",9,2,5,11,4,-2,6,4,1
+"341",35,"nő","egyetem","Kalocsa",6,7,2,10,5,2,3,5,3
+"342",49,"férfi","egyetem","Kiskungyarmat",8,5,9,8,7,-2,4,7,-1
+"343",23,"férfi","egyetem","Kalocsa",3,3,2,8,3,3,3,6,5
+"344",30,"nő","egyetem","Kiskungyarmat",5,6,10,6,4,-2,5,7,3
+"345",39,"nő","középiskola","Kiskungyarmat",6,11,10,12,4,0,8,8,-3
+"346",38,"nő","egyetem","Kalocsa",5,7,4,12,3,5,2,1,1
+"347",48,"nő","általános iskola","Érd",-2,3,2,12,0,9,3,-2,0
+"348",33,"férfi","általános iskola","Érd",-2,-3,-1,8,-1,7,-2,1,2
+"349",38,"nő","középiskola","Kiskungyarmat",10,11,8,7,6,1,6,4,2
+"350",24,"férfi","egyetem","Kiskungyarmat",5,3,8,7,6,2,8,5,4
+"351",24,"férfi","egyetem","Kalocsa",4,4,4,8,4,5,1,6,6
+"352",35,"nő","egyetem","Kalocsa",2,1,1,10,2,2,1,5,1
+"353",20,"férfi","egyetem","Kiskungyarmat",8,6,8,7,7,-1,7,9,2
+"354",22,"nő","általános iskola","Kalocsa",1,2,2,7,2,4,5,3,5
+"355",28,"férfi","általános iskola","Kalocsa",2,2,3,11,3,6,3,6,2
+"356",53,"nő","középiskola","Kalocsa",4,9,3,13,2,5,5,5,-2
+"357",50,"férfi","általános iskola","Érd",2,-2,1,9,0,4,1,2,1
+"358",50,"nő","középiskola","Kalocsa",6,10,3,7,6,1,5,1,1
+"359",49,"férfi","középiskola","Kiskungyarmat",6,7,6,13,8,0,9,4,1
+"360",41,"férfi","egyetem","Érd",-1,4,-3,9,-1,5,-1,3,3
+"361",48,"nő","általános iskola","Érd",-1,-1,2,11,0,7,1,1,3
+"362",47,"nő","egyetem","Érd",-1,4,2,14,0,6,-1,-2,-1
+"363",45,"férfi","középiskola","Kalocsa",1,8,6,8,3,1,6,3,1
+"364",18,"férfi","általános iskola","Érd",-2,2,2,8,-1,5,0,-2,4
+"365",49,"nő","középiskola","Kalocsa",5,9,1,8,4,4,2,6,2
+"366",39,"nő","középiskola","Kiskungyarmat",9,6,8,7,6,-1,4,4,-1
+"367",24,"nő","középiskola","Kalocsa",6,10,5,7,4,3,5,1,3
+"368",41,"nő","középiskola","Kalocsa",3,9,1,8,3,4,2,5,2
+"369",54,"férfi","egyetem","Kalocsa",5,7,5,7,2,1,4,2,0
+"370",19,"nő","középiskola","Kiskungyarmat",7,9,9,8,4,2,6,7,5
+"371",29,"nő","általános iskola","Érd",2,0,1,10,0,5,3,-1,1
+"372",19,"nő","általános iskola","Érd",-3,2,2,7,-2,9,-1,0,1
+"373",25,"férfi","egyetem","Kiskungyarmat",7,5,8,9,8,0,6,5,2
+"374",32,"nő","egyetem","Kalocsa",6,3,6,6,4,3,1,2,2
+"375",32,"nő","egyetem","Kalocsa",3,1,2,7,3,6,5,2,2
+"376",18,"férfi","középiskola","Kiskungyarmat",10,8,8,7,6,1,5,8,4
+"377",25,"nő","egyetem","Érd",-1,5,-2,11,-2,4,3,0,4
+"378",21,"nő","középiskola","Kiskungyarmat",6,11,8,7,4,-2,6,5,4
+"379",51,"nő","egyetem","Érd",1,3,-3,12,-1,8,0,-1,1
+"380",19,"férfi","általános iskola","Érd",-2,0,-1,10,1,4,2,-1,5
+"381",55,"nő","középiskola","Kalocsa",1,6,5,13,6,2,1,2,-1
+"382",55,"férfi","általános iskola","Érd",-2,3,-1,11,-1,5,3,-1,-4
+"383",52,"nő","középiskola","Kiskungyarmat",9,6,9,6,4,0,6,4,-1
+"384",34,"férfi","általános iskola","Érd",-1,-2,-3,7,-1,7,2,-2,7
+"385",41,"férfi","általános iskola","Érd",-2,2,-1,12,0,9,-1,-1,2
+"386",50,"férfi","középiskola","Kiskungyarmat",9,9,7,14,8,2,7,7,1
+"387",32,"férfi","egyetem","Kalocsa",3,3,2,11,4,4,6,6,7
+"388",37,"férfi","általános iskola","Kalocsa",6,-1,3,11,5,2,3,4,2
+"389",32,"nő","általános iskola","Érd",0,-1,-1,13,-2,6,-1,2,2
+"390",45,"férfi","egyetem","Kiskungyarmat",5,4,7,9,8,0,5,9,0
+"391",35,"nő","középiskola","Kalocsa",5,11,3,9,1,4,2,3,1
+"392",50,"nő","általános iskola","Kalocsa",4,1,3,14,2,6,1,5,0
+"393",53,"férfi","középiskola","Kalocsa",2,10,6,12,2,3,4,5,-1
+"394",28,"férfi","általános iskola","Érd",-3,-3,-2,9,-2,7,2,-2,0
+"395",31,"nő","általános iskola","Kalocsa",5,-1,2,10,4,2,2,1,1
+"396",36,"férfi","középiskola","Kalocsa",2,6,6,11,4,2,4,5,3
+"397",31,"nő","általános iskola","Érd",2,3,2,6,0,9,3,2,-1
+"398",37,"férfi","egyetem","Érd",0,6,-3,4,-2,8,3,-1,2
+"399",32,"nő","középiskola","Kiskungyarmat",6,9,9,3,9,1,5,4,2
+"400",20,"nő","egyetem","Érd",-2,5,-1,10,0,5,-1,3,5

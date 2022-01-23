@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Daróczi Gergely honlapja  &raquo; 2. hét &raquo; Nyomtatás</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Robots" content="noindex, nofollow" />
+			<link rel="stylesheet" href="http://ppke.snowl.net/wp-content/plugins/wp-print/print-css.css" type="text/css" media="screen, print" />
+			<link rel="canonical" href="http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/2-het/" />
+</head>
+<body>
+
+<main role="main" class="center">
+
+	
+		<header class="entry-header">
+
+			<span class="hat">
+				<strong>
+					- Daróczi Gergely honlapja 
+					- 
+					<span dir="ltr">http://ppke.snowl.net</span> 
+					-
+				</strong>
+			</span>
+			
+			
+			<h1 class="entry-title">
+				2. hét			</h1>
+
+			<span class="entry-date">
+
+				Szerző: 
+
+				<cite>Daróczi Gergely</cite> 
+
+				 -  
+
+				<time>	
+					2012. szeptember 27.  csütörtök - 00:05 | 
+				</time>
+
+			  	<span>
+			  		Kategória: 
+			  		 | 
+			  	</span>	
+
+		  		<a href='#comments_controls'>
+		  			Vélemény?	  			</a>	  			
+
+				</span>
+			
+		</header>	
+
+		<div class="entry-content">
+
+			<p>Egyszerű számítások:</p>
+
+<div class="wp_codebox"><table><tr id="p17331"><td class="code" id="p1733code1"><pre class="rsplus" style="font-family:monospace;"><span style="color: #ff0000;">1</span> <span style="color: #080;">+</span> <span style="color: #ff0000;">3</span>
+<span style="color: #ff0000;">3</span><span style="color: #080;">^</span><span style="color: #ff0000;">3</span>
+<span style="color: #0000FF; font-weight: bold;">pi</span>
+<span style="color: #0000FF; font-weight: bold;">sqrt</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">100</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">sin</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">0</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">sin</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">pi</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Megjelenítés:</p>
+
+<div class="wp_codebox"><table><tr id="p17332"><td class="code" id="p1733code2"><pre class="rsplus" style="font-family:monospace;"><span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">sin</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>2D vektorok:</p>
+
+<div class="wp_codebox"><table><tr id="p17333"><td class="code" id="p1733code3"><pre class="rsplus" style="font-family:monospace;">x <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">1</span>, <span style="color: #ff0000;">3</span><span style="color: #080;">&#41;</span>
+x
+y <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">2</span>, <span style="color: #ff0000;">6</span><span style="color: #080;">&#41;</span>
+y
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>x, y<span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Valóban ezeket a vektorokat határoztuk meg?</p>
+<p>Vektorműveletek:</p>
+
+<div class="wp_codebox"><table><tr id="p17334"><td class="code" id="p1733code4"><pre class="rsplus" style="font-family:monospace;">x<span style="color: #080;">*</span><span style="color: #ff0000;">3</span>
+y<span style="color: #080;">/</span><span style="color: #ff0000;">2</span>
+x<span style="color: #080;">+</span>y
+x<span style="color: #080;">*</span>y
+<span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">1</span><span style="color: #080;">*</span><span style="color: #ff0000;">2</span>, <span style="color: #ff0000;">3</span><span style="color: #080;">*</span><span style="color: #ff0000;">6</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Vektorok szorzása:</p>
+
+<div class="wp_codebox"><table><tr id="p17335"><td class="code" id="p1733code5"><pre class="rsplus" style="font-family:monospace;">x <span style="color: #080;">%*%</span> y
+<span style="color: #ff0000;">1</span><span style="color: #080;">*</span><span style="color: #ff0000;">2</span> <span style="color: #080;">+</span> <span style="color: #ff0000;">3</span><span style="color: #080;">*</span><span style="color: #ff0000;">6</span></pre></td></tr></table></div>
+
+<p>Mátrixok:</p>
+
+<div class="wp_codebox"><table><tr id="p17336"><td class="code" id="p1733code6"><pre class="rsplus" style="font-family:monospace;">m <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">cbind</span><span style="color: #080;">&#40;</span>x, y<span style="color: #080;">&#41;</span>
+m
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>m<span style="color: #080;">&#41;</span>
+m <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">rbind</span><span style="color: #080;">&#40;</span>x, y<span style="color: #080;">&#41;</span>
+m
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>m<span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">t</span><span style="color: #080;">&#40;</span>m<span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>További mátrixok:</p>
+
+<div class="wp_codebox"><table><tr id="p17337"><td class="code" id="p1733code7"><pre class="rsplus" style="font-family:monospace;">x <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">1</span>, <span style="color: #ff0000;">3</span>, <span style="color: #ff0000;">6</span><span style="color: #080;">&#41;</span>
+y <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">2</span>, <span style="color: #ff0000;">6</span>, <span style="color: #ff0000;">8</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>x, y<span style="color: #080;">&#41;</span>
+&nbsp;
+x<span style="color: #080;">*</span><span style="color: #0000FF; font-weight: bold;">pi</span>
+y<span style="color: #080;">^</span><span style="color: #ff0000;">3</span>
+x<span style="color: #080;">*</span>y
+<span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">1</span><span style="color: #080;">*</span><span style="color: #ff0000;">2</span>, <span style="color: #ff0000;">3</span><span style="color: #080;">*</span><span style="color: #ff0000;">6</span>, <span style="color: #ff0000;">6</span><span style="color: #080;">*</span><span style="color: #ff0000;">8</span><span style="color: #080;">&#41;</span>
+x <span style="color: #080;">%*%</span> y
+<span style="color: #ff0000;">1</span><span style="color: #080;">*</span><span style="color: #ff0000;">2</span> <span style="color: #080;">+</span> <span style="color: #ff0000;">3</span><span style="color: #080;">*</span><span style="color: #ff0000;">6</span> <span style="color: #080;">+</span> <span style="color: #ff0000;">6</span><span style="color: #080;">*</span><span style="color: #ff0000;">8</span>
+&nbsp;
+m <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">cbind</span><span style="color: #080;">&#40;</span>x, y<span style="color: #080;">&#41;</span>
+m
+m <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">rbind</span><span style="color: #080;">&#40;</span>x, y<span style="color: #080;">&#41;</span>
+m
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>m<span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Visszatérünk a szinuszgörbéhez:</p>
+
+<div class="wp_codebox"><table><tr id="p17338"><td class="code" id="p1733code8"><pre class="rsplus" style="font-family:monospace;">x <span style="color: #080;">&lt;-</span> <span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">100</span><span style="color: #080;">/</span><span style="color: #ff0000;">10</span>
+x <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">seq</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">0</span>, <span style="color: #ff0000;">20</span>, <span style="color: #0000FF; font-weight: bold;">by</span><span style="color: #080;">=</span><span style="color: #ff0000;">0.1</span><span style="color: #080;">&#41;</span>
+y <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">sin</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>x,y<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>x,y, type <span style="color: #080;">=</span> <span style="color: #ff0000;">'l'</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>&#8220;Élő&#8221; mátrixok:</p>
+
+<div class="wp_codebox"><table><tr id="p17339"><td class="code" id="p1733code9"><pre class="rsplus" style="font-family:monospace;"><span style="color: #CC9900; font-weight: bold;">mtcars</span>
+<span style="color: #080;">?</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>
+&nbsp;
+<span style="color: #CC9900; font-weight: bold;">mtcars</span>$hp
+<span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span>, <span style="color: #ff0000;">'hp'</span><span style="color: #080;">&#93;</span>
+<span style="color: #0000FF; font-weight: bold;">str</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#41;</span>
+<span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span>, <span style="color: #ff0000;">4</span><span style="color: #080;">&#93;</span>
+<span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span>, <span style="color: #ff0000;">4</span><span style="color: #080;">&#93;</span>
+<span style="color: #CC9900; font-weight: bold;">mtcars</span>
+<span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span>,<span style="color: #ff0000;">1</span><span style="color: #080;">&#93;</span></pre></td></tr></table></div>
+
+<p>Oszlopvektorok:</p>
+
+<div class="wp_codebox"><table><tr id="p173310"><td class="code" id="p1733code10"><pre class="rsplus" style="font-family:monospace;"><span style="color: #CC9900; font-weight: bold;">mtcars</span>$qsec
+<span style="color: #0000FF; font-weight: bold;">min</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$qsec<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">max</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$qsec<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$qsec<span style="color: #080;">&#41;</span>
+<span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg
+<span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg
+<span style="color: #0000FF; font-weight: bold;">min</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">max</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #080;">&#40;</span>x <span style="color: #080;">&lt;-</span> <span style="color: #CC9900; font-weight: bold;">mtcars</span>$qsec <span style="color: #080;">/</span> <span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">min</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">max</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">which</span><span style="color: #080;">&#40;</span>x <span style="color: #080;">==</span> <span style="color: #0000FF; font-weight: bold;">min</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span><span style="color: #0000FF; font-weight: bold;">which</span><span style="color: #080;">&#40;</span>x <span style="color: #080;">==</span> <span style="color: #0000FF; font-weight: bold;">min</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>, <span style="color: #080;">&#93;</span>
+<span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span><span style="color: #0000FF; font-weight: bold;">which</span><span style="color: #080;">&#40;</span>x <span style="color: #080;">==</span> <span style="color: #0000FF; font-weight: bold;">max</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>, <span style="color: #080;">&#93;</span></pre></td></tr></table></div>
+
+<p>Egy egyszerű modell:</p>
+
+<div class="wp_codebox"><table><tr id="p173311"><td class="code" id="p1733code11"><pre class="rsplus" style="font-family:monospace;"><span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$qsec, <span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">abline</span><span style="color: #080;">&#40;</span>fit<span style="color: #080;">&#41;</span>
+fit <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">lm</span><span style="color: #080;">&#40;</span>mpg ~ qsec, <span style="color: #0000FF; font-weight: bold;">data</span> <span style="color: #080;">=</span> <span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#41;</span>
+fit
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$qsec, <span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">abline</span><span style="color: #080;">&#40;</span>fit, <span style="color: #0000FF; font-weight: bold;">col</span> <span style="color: #080;">=</span> <span style="color: #ff0000;">'red'</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">predict</span><span style="color: #080;">&#40;</span>fit<span style="color: #080;">&#41;</span> <span style="color: #080;">-</span> <span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg</pre></td></tr></table></div>
+
+
+
+		</div>
+
+		
+	<div class="comments">
+			</div>
+	
+	<footer class="footer">
+		<p>
+			A bejegyzés forrásoldala: 
+			Daróczi Gergely honlapja: 
+
+			<strong dir="ltr">
+				http://ppke.snowl.net			</strong>
+		</p>
+
+		<p>
+			URL a bejegyzéshez: 
+			<strong dir="ltr">
+				http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/2-het/			</strong>
+		</p>
+		
+					<p></p>
+		
+		<p style="text-align: right;" id="print-link">
+			<a href="#Print" onclick="window.print(); return false;" title="NYOMTATÁS">
+				--> 
+				Nyomtatás				indítása.			</a> 
+		</p>
+
+		
+		<p style="text-align: center;">
+			Copyright &copy; 2010 Daróczi Gergely, PPKE BTK. Majdnem minden jog fenntartva.		</p>
+	</footer>
+
+</main>
+
+
+</body>
+</html>

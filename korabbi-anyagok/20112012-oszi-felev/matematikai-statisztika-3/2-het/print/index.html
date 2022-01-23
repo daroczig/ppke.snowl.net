@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Daróczi Gergely honlapja  &raquo; 2. hét &raquo; Nyomtatás</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Robots" content="noindex, nofollow" />
+			<link rel="stylesheet" href="http://ppke.snowl.net/wp-content/plugins/wp-print/print-css.css" type="text/css" media="screen, print" />
+			<link rel="canonical" href="http://ppke.snowl.net/korabbi-anyagok/20112012-oszi-felev/matematikai-statisztika-3/2-het/" />
+</head>
+<body>
+
+<main role="main" class="center">
+
+	
+		<header class="entry-header">
+
+			<span class="hat">
+				<strong>
+					- Daróczi Gergely honlapja 
+					- 
+					<span dir="ltr">http://ppke.snowl.net</span> 
+					-
+				</strong>
+			</span>
+			
+			
+			<h1 class="entry-title">
+				2. hét			</h1>
+
+			<span class="entry-date">
+
+				Szerző: 
+
+				<cite>Daróczi Gergely</cite> 
+
+				 -  
+
+				<time>	
+					2011. szeptember 21.  szerda - 00:06 | 
+				</time>
+
+			  	<span>
+			  		Kategória: 
+			  		 | 
+			  	</span>	
+
+		  		<a href='#comments_controls'>
+		  			Vélemény?	  			</a>	  			
+
+				</span>
+			
+		</header>	
+
+		<div class="entry-content">
+
+			<p><a href="http://cran.at.r-project.org/" rel="external">Telepítsük fel a programot</a> <sup>[1]</sup>, vagy töltsük le a <a href="http://ppke.snowl.net/files/bigfiles/poRtable.zip" rel="external">portable változatot</a> <sup>[2]</sup>! Ezen utóbbi kitömörítés után bárhol futtatható, és tartalmazza a <a href="http://notepad-plus-plus.org/" rel="external">Notepad++</a> <sup>[3]</sup> szövegszerkesztő magyar nyelvű portable változatát is az <a href="http://sourceforge.net/projects/npptor/" rel="external">NppToR</a> <sup>[4]</sup> (a két program közötti átjárást biztosító) kiegészítővel egyetemben.</p>
+<p>Egy-két ujjgyakorlat: futtassuk le az alábbi kódot R-ben!</p>
+
+<div class="wp_codebox"><table><tr id="p11861"><td class="code" id="p1186code1"><pre class="rsplus" style="font-family:monospace;"><span style="color: #ff0000;">1</span><span style="color: #080;">+</span><span style="color: #ff0000;">1</span>
+<span style="color: #080;">&#40;</span><span style="color: #ff0000;">4</span><span style="color: #080;">+</span><span style="color: #ff0000;">8</span><span style="color: #080;">&#41;</span><span style="color: #080;">*</span><span style="color: #ff0000;">4</span>
+<span style="color: #ff0000;">4</span><span style="color: #080;">^</span><span style="color: #ff0000;">2</span>
+<span style="color: #0000FF; font-weight: bold;">sqrt</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">9</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Vektorok:</p>
+
+<div class="wp_codebox"><table><tr id="p11862"><td class="code" id="p1186code2"><pre class="rsplus" style="font-family:monospace;"><span style="color: #ff0000;">1</span><span style="color: #080;">+</span><span style="color: #ff0000;">1</span>
+x <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">20</span>, <span style="color: #ff0000;">21</span>, <span style="color: #ff0000;">23</span>, <span style="color: #ff0000;">19</span>, <span style="color: #ff0000;">21</span>, <span style="color: #ff0000;">22</span>, <span style="color: #ff0000;">20</span>, <span style="color: #ff0000;">18</span>, <span style="color: #ff0000;">31</span><span style="color: #080;">&#41;</span>
+x
+x<span style="color: #080;">+</span><span style="color: #ff0000;">5</span>
+&nbsp;
+x<span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">&#93;</span>
+x<span style="color: #080;">&#91;</span><span style="color: #ff0000;">2</span><span style="color: #080;">:</span><span style="color: #ff0000;">4</span><span style="color: #080;">&#93;</span>
+<span style="color: #080;">??</span><span style="color: #0000FF; font-weight: bold;">length</span>
+<span style="color: #0000FF; font-weight: bold;">length</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+x<span style="color: #080;">&#91;</span><span style="color: #ff0000;">3</span><span style="color: #080;">:</span><span style="color: #0000FF; font-weight: bold;">length</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#93;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">min</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">max</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">max</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">-</span><span style="color: #0000FF; font-weight: bold;">min</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span> <span style="color: #080;">==</span> <span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">diff</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">diff</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">mean</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">sd</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">var</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">summary</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">pie</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">hist</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">pie</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">barplot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Mátrixok:</p>
+
+<div class="wp_codebox"><table><tr id="p11863"><td class="code" id="p1186code3"><pre class="rsplus" style="font-family:monospace;">x <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">matrix</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">0</span>, <span style="color: #ff0000;">5</span>,<span style="color: #ff0000;">5</span><span style="color: #080;">&#41;</span>
+x <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">matrix</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">runif</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">25</span><span style="color: #080;">&#41;</span>, <span style="color: #ff0000;">5</span>,<span style="color: #ff0000;">5</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">diag</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">lower.<span style="">tri</span></span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+x<span style="color: #080;">&#91;</span><span style="color: #0000FF; font-weight: bold;">lower.<span style="">tri</span></span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span><span style="color: #080;">&#93;</span>
+<span style="color: #0000FF; font-weight: bold;">det</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">str</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Nézzük meg az mtcars adatbázist:</p>
+
+<div class="wp_codebox"><table><tr id="p11864"><td class="code" id="p1186code4"><pre class="rsplus" style="font-family:monospace;"><span style="color: #0000FF; font-weight: bold;">str</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #080;">?</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">hist</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">hist</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg, main<span style="color: #080;">=</span><span style="color: #ff0000;">&quot;Az első R-s hisztogramom!&quot;</span><span style="color: #080;">&#41;</span>
+<span style="color: #080;">?</span><span style="color: #0000FF; font-weight: bold;">hist</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">hist</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg, main<span style="color: #080;">=</span><span style="color: #ff0000;">&quot;Az első R-s hisztogramom!&quot;</span>, <span style="color: #0000FF; font-weight: bold;">col</span><span style="color: #080;">=</span><span style="color: #ff0000;">&quot;green&quot;</span>, <span style="color: #0000FF; font-weight: bold;">density</span><span style="color: #080;">=</span><span style="color: #ff0000;">20</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">abline</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">2</span>,<span style="color: #ff0000;">0</span>, <span style="color: #0000FF; font-weight: bold;">col</span><span style="color: #080;">=</span><span style="color: #ff0000;">&quot;red&quot;</span>, lty<span style="color: #080;">=</span><span style="color: #ff0000;">2</span>, lwd<span style="color: #080;">=</span><span style="color: #ff0000;">2</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">summary</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$mpg<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">summary</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">pie</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">cor</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span>, <span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span><span style="color: #080;">&#93;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">pairs</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span>, <span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span><span style="color: #080;">&#93;</span><span style="color: #080;">&#41;</span>
+<span style="color: #080;">?</span><span style="color: #0000FF; font-weight: bold;">pairs</span>
+&nbsp;
+panel.<span style="">cor</span> <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">function</span><span style="color: #080;">&#40;</span>x, y, digits<span style="color: #080;">=</span><span style="color: #ff0000;">2</span>, prefix<span style="color: #080;">=</span><span style="color: #ff0000;">&quot;&quot;</span>, cex.<span style="">cor</span>, ...<span style="color: #080;">&#41;</span>
+     <span style="color: #080;">&#123;</span>
+         usr <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">par</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">&quot;usr&quot;</span><span style="color: #080;">&#41;</span><span style="color: #080;">;</span> <span style="color: #0000FF; font-weight: bold;">on.<span style="">exit</span></span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">par</span><span style="color: #080;">&#40;</span>usr<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+         <span style="color: #0000FF; font-weight: bold;">par</span><span style="color: #080;">&#40;</span>usr <span style="color: #080;">=</span> <span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">0</span>, <span style="color: #ff0000;">1</span>, <span style="color: #ff0000;">0</span>, <span style="color: #ff0000;">1</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+         r <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">abs</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">cor</span><span style="color: #080;">&#40;</span>x, y<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+         txt <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">format</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">c</span><span style="color: #080;">&#40;</span>r, <span style="color: #ff0000;">0.123456789</span><span style="color: #080;">&#41;</span>, digits<span style="color: #080;">=</span>digits<span style="color: #080;">&#41;</span><span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">&#93;</span>
+         txt <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">paste</span><span style="color: #080;">&#40;</span>prefix, txt, sep<span style="color: #080;">=</span><span style="color: #ff0000;">&quot;&quot;</span><span style="color: #080;">&#41;</span>
+         <span style="color: #0000FF; font-weight: bold;">if</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">missing</span><span style="color: #080;">&#40;</span>cex.<span style="">cor</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span> cex.<span style="">cor</span> <span style="color: #080;">&lt;-</span> <span style="color: #ff0000;">0.8</span><span style="color: #080;">/</span><span style="color: #0000FF; font-weight: bold;">strwidth</span><span style="color: #080;">&#40;</span>txt<span style="color: #080;">&#41;</span>
+         <span style="color: #0000FF; font-weight: bold;">text</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">0.5</span>, <span style="color: #ff0000;">0.5</span>, txt, cex <span style="color: #080;">=</span> cex.<span style="">cor</span> <span style="color: #080;">*</span> r<span style="color: #080;">&#41;</span>
+     <span style="color: #080;">&#125;</span>
+<span style="color: #0000FF; font-weight: bold;">pairs</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#91;</span>, <span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span><span style="color: #080;">&#93;</span>, upper.<span style="">panel</span><span style="color: #080;">=</span>panel.<span style="">cor</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>És akkor haladjunk az elemzéssel:</p>
+
+<div class="wp_codebox"><table><tr id="p11865"><td class="code" id="p1186code5"><pre class="rsplus" style="font-family:monospace;"><span style="color: #228B22;"># A legmagasabb átlag:</span>
+<span style="color: #0000FF; font-weight: bold;">max</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">mean</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">which.<span style="">max</span></span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">mean</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">prop.<span style="">table</span></span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear, <span style="color: #CC9900; font-weight: bold;">mtcars</span>$am<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">mosaicplot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear, <span style="color: #CC9900; font-weight: bold;">mtcars</span>$am<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">mosaicplot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear, <span style="color: #CC9900; font-weight: bold;">mtcars</span>$am<span style="color: #080;">&#41;</span>, shade<span style="color: #080;">=</span>TRUE, color<span style="color: #080;">=</span>TRUE<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">chisq.<span style="">test</span></span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear, <span style="color: #CC9900; font-weight: bold;">mtcars</span>$am<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">t</span> <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">chisq.<span style="">test</span></span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">table</span><span style="color: #080;">&#40;</span><span style="color: #CC9900; font-weight: bold;">mtcars</span>$gear, <span style="color: #CC9900; font-weight: bold;">mtcars</span>$am<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">str</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">t</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">t</span>$expected
+&nbsp;
+V <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">function</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span> <span style="color: #0000FF; font-weight: bold;">sqrt</span><span style="color: #080;">&#40;</span>x$statistic<span style="color: #080;">^</span><span style="color: #ff0000;">2</span><span style="color: #080;">/</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">sum</span><span style="color: #080;">&#40;</span>x$observed<span style="color: #080;">&#41;</span><span style="color: #080;">*</span>x$parameter<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+V<span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">t</span><span style="color: #080;">&#41;</span>
+&nbsp;
+V <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">function</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span> <span style="color: #0000FF; font-weight: bold;">as.<span style="">numeric</span></span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">sqrt</span><span style="color: #080;">&#40;</span>x$statistic<span style="color: #080;">/</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">sum</span><span style="color: #080;">&#40;</span>x$observed<span style="color: #080;">&#41;</span><span style="color: #080;">*</span>x$parameter<span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+V<span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">t</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<p>Sűrűség- és eloszlásfv:</p>
+
+<div class="wp_codebox"><table><tr id="p11866"><td class="code" id="p1186code6"><pre class="rsplus" style="font-family:monospace;"><span style="color: #0000FF; font-weight: bold;">hist</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">rnorm</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">100</span>, <span style="color: #ff0000;">0.5</span>, <span style="color: #ff0000;">0.1</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">curve</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">dnorm</span><span style="color: #080;">&#40;</span>x,<span style="color: #ff0000;">0.5</span>,<span style="color: #ff0000;">0.1</span><span style="color: #080;">&#41;</span>, add<span style="color: #080;">=</span>TRUE, <span style="color: #0000FF; font-weight: bold;">col</span><span style="color: #080;">=</span><span style="color: #ff0000;">&quot;red&quot;</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">curve</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">pnorm</span><span style="color: #080;">&#40;</span>x,<span style="color: #ff0000;">0.5</span>,<span style="color: #ff0000;">0.1</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+
+
+		</div>
+
+		
+	<div class="comments">
+			</div>
+	
+	<footer class="footer">
+		<p>
+			A bejegyzés forrásoldala: 
+			Daróczi Gergely honlapja: 
+
+			<strong dir="ltr">
+				http://ppke.snowl.net			</strong>
+		</p>
+
+		<p>
+			URL a bejegyzéshez: 
+			<strong dir="ltr">
+				http://ppke.snowl.net/korabbi-anyagok/20112012-oszi-felev/matematikai-statisztika-3/2-het/			</strong>
+		</p>
+		
+					<p>A bejegyzésben található URL címek:<p style="margin: 2px 0;">[1] Telepítsük fel a programot: <b><span dir="ltr">http://cran.at.r-project.org/</span></b></p><p style="margin: 2px 0;">[2] portable változatot: <b><span dir="ltr">http://ppke.snowl.net/files/bigfiles/poRtable.zip</span></b></p><p style="margin: 2px 0;">[3] Notepad++: <b><span dir="ltr">http://notepad-plus-plus.org/</span></b></p><p style="margin: 2px 0;">[4] NppToR: <b><span dir="ltr">http://sourceforge.net/projects/npptor/</span></b></p></p>
+		
+		<p style="text-align: right;" id="print-link">
+			<a href="#Print" onclick="window.print(); return false;" title="NYOMTATÁS">
+				--> 
+				Nyomtatás				indítása.			</a> 
+		</p>
+
+		
+		<p style="text-align: center;">
+			Copyright &copy; 2010 Daróczi Gergely, PPKE BTK. Majdnem minden jog fenntartva.		</p>
+	</footer>
+
+</main>
+
+
+</body>
+</html>

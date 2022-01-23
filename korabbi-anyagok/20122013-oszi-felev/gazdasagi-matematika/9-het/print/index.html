@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Daróczi Gergely honlapja  &raquo; 9. hét &raquo; Nyomtatás</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Robots" content="noindex, nofollow" />
+			<link rel="stylesheet" href="http://ppke.snowl.net/wp-content/plugins/wp-print/print-css.css" type="text/css" media="screen, print" />
+			<link rel="canonical" href="http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/9-het/" />
+</head>
+<body>
+
+<main role="main" class="center">
+
+	
+		<header class="entry-header">
+
+			<span class="hat">
+				<strong>
+					- Daróczi Gergely honlapja 
+					- 
+					<span dir="ltr">http://ppke.snowl.net</span> 
+					-
+				</strong>
+			</span>
+			
+			
+			<h1 class="entry-title">
+				9. hét			</h1>
+
+			<span class="entry-date">
+
+				Szerző: 
+
+				<cite>Daróczi Gergely</cite> 
+
+				 -  
+
+				<time>	
+					2012. november 15.  csütörtök - 09:54 | 
+				</time>
+
+			  	<span>
+			  		Kategória: 
+			  		 | 
+			  	</span>	
+
+		  		<a href='#comments_controls'>
+		  			Vélemény?	  			</a>	  			
+
+				</span>
+			
+		</header>	
+
+		<div class="entry-content">
+
+			<p>Adatfile: <a href="http://ppke.snowl.net/files/2012/11/atm.csv" rel="external">atm.csv</a> <sup>[1]</sup></p>
+<p>Betöltése:</p>
+
+<div class="wp_codebox"><table><tr id="p17971"><td class="code" id="p1797code1"><pre class="rsplus" style="font-family:monospace;"><span style="color: #0000FF; font-weight: bold;">df</span> <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">read.<span style="">csv</span></span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">'http://ppke.snowl.net/files/2012/11/atm.csv'</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+<hr>
+<p>Modell keresése:</p>
+
+<div class="wp_codebox"><table><tr id="p17972"><td class="code" id="p1797code2"><pre class="rsplus" style="font-family:monospace;"><span style="color: #0000FF; font-weight: bold;">df</span>$mday <span style="color: #080;">&lt;-</span> <span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">30</span>
+<span style="color: #0000FF; font-weight: bold;">df</span>$wday <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">rep</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span>, <span style="color: #ff0000;">15</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">90</span><span style="color: #080;">&#93;</span>
+<span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$atm<span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span><span style="color: #080;">&#93;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">range</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$atm<span style="color: #080;">&#91;</span><span style="color: #ff0000;">22</span><span style="color: #080;">:</span><span style="color: #ff0000;">28</span><span style="color: #080;">&#93;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">mean</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$atm<span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span><span style="color: #080;">&#93;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">mean</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$atm<span style="color: #080;">&#91;</span><span style="color: #ff0000;">22</span><span style="color: #080;">:</span><span style="color: #ff0000;">28</span><span style="color: #080;">&#93;</span><span style="color: #080;">&#41;</span>
+f <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">function</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span> <span style="color: #ff0000;">50000</span><span style="color: #080;">-</span><span style="color: #ff0000;">50000</span><span style="color: #080;">/</span><span style="color: #ff0000;">30</span><span style="color: #080;">*</span>x
+<span style="color: #0000FF; font-weight: bold;">df</span>$mtrend <span style="color: #080;">&lt;-</span> f<span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$mday<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$atm, type <span style="color: #080;">=</span> <span style="color: #ff0000;">&quot;l&quot;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">lines</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$mtrend, <span style="color: #0000FF; font-weight: bold;">col</span> <span style="color: #080;">=</span> <span style="color: #ff0000;">&quot;red&quot;</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">df</span>$wtrend <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">df</span>$atm <span style="color: #080;">-</span> <span style="color: #0000FF; font-weight: bold;">df</span>$mtrend
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$wtrend, type <span style="color: #080;">=</span> <span style="color: #ff0000;">&quot;l&quot;</span><span style="color: #080;">&#41;</span>
+f <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">function</span><span style="color: #080;">&#40;</span>x<span style="color: #080;">&#41;</span> <span style="color: #ff0000;">75000</span><span style="color: #080;">-</span><span style="color: #ff0000;">75000</span><span style="color: #080;">/</span><span style="color: #ff0000;">30</span><span style="color: #080;">*</span>x
+<span style="color: #0000FF; font-weight: bold;">df</span>$mtrend <span style="color: #080;">&lt;-</span> f<span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$mday<span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">df</span>$wtrend <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">df</span>$atm <span style="color: #080;">-</span> <span style="color: #0000FF; font-weight: bold;">df</span>$mtrend
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$wtrend, type <span style="color: #080;">=</span> <span style="color: #ff0000;">&quot;l&quot;</span><span style="color: #080;">&#41;</span>
+&nbsp;
+<span style="color: #0000FF; font-weight: bold;">df</span>$p <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">df</span>$wtrend <span style="color: #080;">+</span> <span style="color: #0000FF; font-weight: bold;">df</span>$mtrend</pre></td></tr></table></div>
+
+<p>Egy évre előrevetítve:</p>
+
+<div class="wp_codebox"><table><tr id="p17973"><td class="code" id="p1797code3"><pre class="rsplus" style="font-family:monospace;">df2 <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">data.<span style="">frame</span></span><span style="color: #080;">&#40;</span>nap <span style="color: #080;">=</span> <span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">360</span><span style="color: #080;">&#41;</span>
+df2$mday <span style="color: #080;">&lt;-</span> <span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">30</span>
+df2$wday <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">rep</span><span style="color: #080;">&#40;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span>, <span style="color: #ff0000;">52</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">360</span><span style="color: #080;">&#93;</span>
+df2$mtrend <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">df</span>$mtrend<span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">30</span><span style="color: #080;">&#93;</span>
+df2$wtrend <span style="color: #080;">&lt;-</span> <span style="color: #0000FF; font-weight: bold;">rep</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$wtrend<span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">7</span><span style="color: #080;">&#93;</span>, <span style="color: #ff0000;">52</span><span style="color: #080;">&#41;</span><span style="color: #080;">&#91;</span><span style="color: #ff0000;">1</span><span style="color: #080;">:</span><span style="color: #ff0000;">360</span><span style="color: #080;">&#93;</span>
+<span style="color: #0000FF; font-weight: bold;">str</span><span style="color: #080;">&#40;</span>df2<span style="color: #080;">&#41;</span>
+df2$atm <span style="color: #080;">&lt;-</span> df2$mtrend <span style="color: #080;">+</span> df2$wtrend
+<span style="color: #0000FF; font-weight: bold;">plot</span><span style="color: #080;">&#40;</span>df2$atm, type <span style="color: #080;">=</span> <span style="color: #ff0000;">&quot;l&quot;</span><span style="color: #080;">&#41;</span>
+<span style="color: #0000FF; font-weight: bold;">lines</span><span style="color: #080;">&#40;</span><span style="color: #0000FF; font-weight: bold;">df</span>$p, <span style="color: #0000FF; font-weight: bold;">col</span> <span style="color: #080;">=</span> <span style="color: #ff0000;">&quot;red&quot;</span><span style="color: #080;">&#41;</span></pre></td></tr></table></div>
+
+
+
+		</div>
+
+		
+	<div class="comments">
+			</div>
+	
+	<footer class="footer">
+		<p>
+			A bejegyzés forrásoldala: 
+			Daróczi Gergely honlapja: 
+
+			<strong dir="ltr">
+				http://ppke.snowl.net			</strong>
+		</p>
+
+		<p>
+			URL a bejegyzéshez: 
+			<strong dir="ltr">
+				http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/9-het/			</strong>
+		</p>
+		
+					<p>A bejegyzésben található URL címek:<p style="margin: 2px 0;">[1] atm.csv: <b><span dir="ltr">http://ppke.snowl.net/files/2012/11/atm.csv</span></b></p></p>
+		
+		<p style="text-align: right;" id="print-link">
+			<a href="#Print" onclick="window.print(); return false;" title="NYOMTATÁS">
+				--> 
+				Nyomtatás				indítása.			</a> 
+		</p>
+
+		
+		<p style="text-align: center;">
+			Copyright &copy; 2010 Daróczi Gergely, PPKE BTK. Majdnem minden jog fenntartva.		</p>
+	</footer>
+
+</main>
+
+
+</body>
+</html>

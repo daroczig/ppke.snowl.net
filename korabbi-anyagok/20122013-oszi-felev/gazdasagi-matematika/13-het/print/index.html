@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Daróczi Gergely honlapja  &raquo; 13. hét &raquo; Nyomtatás</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Robots" content="noindex, nofollow" />
+			<link rel="stylesheet" href="http://ppke.snowl.net/wp-content/plugins/wp-print/print-css.css" type="text/css" media="screen, print" />
+			<link rel="canonical" href="http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/13-het/" />
+</head>
+<body>
+
+<main role="main" class="center">
+
+	
+		<header class="entry-header">
+
+			<span class="hat">
+				<strong>
+					- Daróczi Gergely honlapja 
+					- 
+					<span dir="ltr">http://ppke.snowl.net</span> 
+					-
+				</strong>
+			</span>
+			
+			
+			<h1 class="entry-title">
+				13. hét			</h1>
+
+			<span class="entry-date">
+
+				Szerző: 
+
+				<cite>Daróczi Gergely</cite> 
+
+				 -  
+
+				<time>	
+					2012. december 6.  csütörtök - 01:21 | 
+				</time>
+
+			  	<span>
+			  		Kategória: 
+			  		 | 
+			  	</span>	
+
+		  		<a href='#comments_controls'>
+		  			Vélemény?	  			</a>	  			
+
+				</span>
+			
+		</header>	
+
+		<div class="entry-content">
+
+			<p><strong>Felhasznált adatbázisok:</strong></p>
+<ul>
+<li><a href="http://ppke.snowl.net/files/2012/12/Paris.csv" rel="external">Prostitutes in Paris</a> <sup>[1]</sup> (forrás: <a href="http://cran.r-project.org/web/packages/HistData/index.html" rel="external">http://cran.r-project.org/web/packages/HistData/index.html</a> <sup>[2]</sup>)</li>
+<li><a href="http://ppke.snowl.net/files/2012/12/NY.csv" rel="external">New York temperature</a> <sup>[3]</sup> (forrás: <a href="http://www.esrl.noaa.gov/" rel="external">http://www.esrl.noaa.gov/</a> <sup>[4]</sup>)</li>
+</ul>
+<p><strong> Adatok beolvasása:</strong></p>
+<pre style="background: #f9f9f9; color: #080808;"># Parent<span style="color: #794938;">-</span><span style="color: #811f24; font-weight: bold;">Duchatelet</span>'s time<span style="color: #794938;">-</span>series <span style="color: #794938;">data</span> on the number <span style="color: #794938;">of</span> prostitutes <span style="color: #794938;">in</span> <span style="color: #811f24; font-weight: bold;">Paris</span>
+<span style="color: #693a17;">read</span><span style="color: #794938;">.</span>csv('http<span style="color: #794938;">://</span>ppke<span style="color: #794938;">.</span>snowl<span style="color: #794938;">.</span>net<span style="color: #794938;">/</span>files<span style="color: #794938;">/</span><span style="color: #811f24; font-weight: bold;">2012</span><span style="color: #794938;">/</span><span style="color: #811f24; font-weight: bold;">12</span><span style="color: #794938;">/</span><span style="color: #811f24; font-weight: bold;">Paris</span><span style="color: #794938;">.</span>csv')
+
+# Daily <span style="color: #693a17;">maximum</span> temperature <span style="color: #794938;">in</span> <span style="color: #811f24; font-weight: bold;">NY</span> (<span style="color: #811f24; font-weight: bold;">1960</span><span style="color: #794938;">-</span><span style="color: #811f24; font-weight: bold;">1965</span>)
+<span style="color: #693a17;">read</span><span style="color: #794938;">.</span>csv('http<span style="color: #794938;">://</span>ppke<span style="color: #794938;">.</span>snowl<span style="color: #794938;">.</span>net<span style="color: #794938;">/</span>files<span style="color: #794938;">/</span><span style="color: #811f24; font-weight: bold;">2012</span><span style="color: #794938;">/</span><span style="color: #811f24; font-weight: bold;">12</span><span style="color: #794938;">/</span><span style="color: #811f24; font-weight: bold;">NY</span><span style="color: #794938;">.</span>csv')</pre>
+<p><strong>Elemzés:</strong></p>
+<pre style="background: #f9f9f9; color: #080808;"><span style="color: #234a97;">df</span> <span style="color: #794938;">&lt;-</span> read.csv(<span style="color: #0b6125;">'http://ppke.snowl.net/files/2012/12/Paris.csv'</span>)
+
+<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">ho</span> <span style="color: #794938;">&lt;-</span> <span style="color: #811f24; font-weight: bold;">1</span><span style="color: #794938;">:</span><span style="color: #811f24; font-weight: bold;">12</span>
+<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">ev</span> <span style="color: #794938;">&lt;-</span> rep(<span style="color: #811f24; font-weight: bold;">1812</span><span style="color: #794938;">:</span><span style="color: #811f24; font-weight: bold;">1854</span>, <span style="color: #234a97;">each</span> <span style="color: #794938;">=</span> <span style="color: #811f24; font-weight: bold;">12</span>)
+
+<span style="color: #234a97;">fit</span> <span style="color: #794938;">&lt;-</span> lm(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">x</span> <span style="color: #794938;">~</span> poly(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">ho</span>, <span style="color: #811f24; font-weight: bold;">2</span>) <span style="color: #794938;">+</span> <span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">ev</span>)
+<span style="color: #234a97;">fit</span>
+plot(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">x</span>, <span style="color: #234a97;">type</span> <span style="color: #794938;">=</span> <span style="color: #0b6125;">"l"</span>)
+lines(predict(<span style="color: #234a97;">fit</span>), <span style="color: #234a97;">col</span>=<span style="color: #0b6125;">"red"</span>)
+
+<span style="color: #234a97;">fit</span> <span style="color: #794938;">&lt;-</span> lm(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">x</span> <span style="color: #794938;">~</span> poly(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">ev</span>, <span style="color: #811f24; font-weight: bold;">6</span>))
+plot(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">x</span>, <span style="color: #234a97;">type</span> <span style="color: #794938;">=</span> <span style="color: #0b6125;">"l"</span>)
+lines(predict(<span style="color: #234a97;">fit</span>), <span style="color: #234a97;">col</span>=<span style="color: #0b6125;">"red"</span>)
+
+<span style="color: #234a97;">fit</span> <span style="color: #794938;">&lt;-</span> lm(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">x</span> <span style="color: #794938;">~</span> poly(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">ev</span>, <span style="color: #811f24; font-weight: bold;">15</span>))
+plot(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">x</span>, <span style="color: #234a97;">type</span> <span style="color: #794938;">=</span> <span style="color: #0b6125;">"l"</span>)
+lines(predict(<span style="color: #234a97;">fit</span>), <span style="color: #234a97;">col</span>=<span style="color: #0b6125;">"red"</span>)
+
+<span style="color: #234a97;">t</span> <span style="color: #794938;">&lt;-</span> ts(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">x</span>, <span style="color: #234a97;">start</span> <span style="color: #794938;">=</span> c(<span style="color: #811f24; font-weight: bold;">1812</span>, <span style="color: #811f24; font-weight: bold;">1</span>), <span style="color: #234a97;">freq</span> <span style="color: #794938;">=</span> <span style="color: #811f24; font-weight: bold;">12</span>)
+
+decompose(<span style="color: #234a97;">t</span>)
+plot(decompose(<span style="color: #234a97;">t</span>))
+
+<span style="color: #5a525f; font-style: italic;">###########################################</span>
+
+<span style="color: #234a97;">df</span> <span style="color: #794938;">&lt;-</span> read.csv(<span style="color: #0b6125;">'http://ppke.snowl.net/files/2012/12/NY.csv'</span>)
+
+<span style="color: #234a97;">fit</span> <span style="color: #794938;">&lt;-</span> lm(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">temp</span> <span style="color: #794938;">~</span> <span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">month</span>)
+plot(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">temp</span>, <span style="color: #234a97;">type</span> <span style="color: #794938;">=</span> <span style="color: #0b6125;">"l"</span>)
+lines(predict(<span style="color: #234a97;">fit</span>), <span style="color: #234a97;">col</span>=<span style="color: #0b6125;">"red"</span>)
+
+<span style="color: #234a97;">fit</span> <span style="color: #794938;">&lt;-</span> lm(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">temp</span> <span style="color: #794938;">~</span> poly(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">month</span>, <span style="color: #811f24; font-weight: bold;">2</span>))
+plot(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">temp</span>, <span style="color: #234a97;">type</span> <span style="color: #794938;">=</span> <span style="color: #0b6125;">"l"</span>)
+lines(predict(<span style="color: #234a97;">fit</span>), <span style="color: #234a97;">col</span>=<span style="color: #0b6125;">"red"</span>)
+
+<span style="color: #234a97;">t</span> <span style="color: #794938;">&lt;-</span> ts(<span style="color: #234a97;">df</span><span style="color: #794938;">$</span><span style="color: #234a97;">temp</span>, <span style="color: #234a97;">start</span> <span style="color: #794938;">=</span>  c(<span style="color: #811f24; font-weight: bold;">1960</span>, <span style="color: #811f24; font-weight: bold;">1</span>), <span style="color: #234a97;">freq</span> <span style="color: #794938;">=</span> <span style="color: #811f24; font-weight: bold;">365</span>)
+decompose(<span style="color: #234a97;">t</span>)
+plot(decompose(<span style="color: #234a97;">t</span>))</pre>
+
+
+		</div>
+
+		
+	<div class="comments">
+			</div>
+	
+	<footer class="footer">
+		<p>
+			A bejegyzés forrásoldala: 
+			Daróczi Gergely honlapja: 
+
+			<strong dir="ltr">
+				http://ppke.snowl.net			</strong>
+		</p>
+
+		<p>
+			URL a bejegyzéshez: 
+			<strong dir="ltr">
+				http://ppke.snowl.net/korabbi-anyagok/20122013-oszi-felev/gazdasagi-matematika/13-het/			</strong>
+		</p>
+		
+					<p>A bejegyzésben található URL címek:<p style="margin: 2px 0;">[1] Prostitutes in Paris: <b><span dir="ltr">http://ppke.snowl.net/files/2012/12/Paris.csv</span></b></p><p style="margin: 2px 0;">[2] http://cran.r-project.org/web/packages/HistData/index.html: <b><span dir="ltr">http://cran.r-project.org/web/packages/HistData/index.html</span></b></p><p style="margin: 2px 0;">[3] New York temperature: <b><span dir="ltr">http://ppke.snowl.net/files/2012/12/NY.csv</span></b></p><p style="margin: 2px 0;">[4] http://www.esrl.noaa.gov/: <b><span dir="ltr">http://www.esrl.noaa.gov/</span></b></p></p>
+		
+		<p style="text-align: right;" id="print-link">
+			<a href="#Print" onclick="window.print(); return false;" title="NYOMTATÁS">
+				--> 
+				Nyomtatás				indítása.			</a> 
+		</p>
+
+		
+		<p style="text-align: center;">
+			Copyright &copy; 2010 Daróczi Gergely, PPKE BTK. Majdnem minden jog fenntartva.		</p>
+	</footer>
+
+</main>
+
+
+</body>
+</html>
