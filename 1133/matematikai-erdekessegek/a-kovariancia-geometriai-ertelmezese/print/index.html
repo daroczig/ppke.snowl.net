@@ -5,8 +5,8 @@
 	<title>Daróczi Gergely honlapja  &raquo; A kovariancia geometriai értelmezése &raquo; Nyomtatás</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="Robots" content="noindex, nofollow" />
-			<link rel="stylesheet" href="http://ppke.snowl.net/wp-content/plugins/wp-print/print-css.css" type="text/css" media="screen, print" />
-			<link rel="canonical" href="http://ppke.snowl.net/1133/matematikai-erdekessegek/a-kovariancia-geometriai-ertelmezese/" />
+			<link rel="stylesheet" href="/wp-content/plugins/wp-print/print-css.css" type="text/css" media="screen, print" />
+			<link rel="canonical" href="/1133/matematikai-erdekessegek/a-kovariancia-geometriai-ertelmezese/" />
 </head>
 <body>
 
@@ -19,7 +19,7 @@
 				<strong>
 					- Daróczi Gergely honlapja 
 					- 
-					<span dir="ltr">http://ppke.snowl.net</span> 
+					<span dir="ltr"></span> 
 					-
 				</strong>
 			</span>
@@ -55,20 +55,20 @@
 		<div class="entry-content">
 
 			<p>Két független változó térbeli megjelenítése nem okozhat problémát, ehhez vegyünk egy egyszerű példát:</p>
-<p><a href="http://ppke.snowl.net/files/2011/06/cov.png" rel="external"><img class="aligncenter size-medium wp-image-1134" title="Kovariancia szemléltetése #1" src="http://ppke.snowl.net/files/2011/06/cov-300x180.png" alt="" width="300" height="180" srcset="http://ppke.snowl.net/files/2011/06/cov-300x180.png 300w, http://ppke.snowl.net/files/2011/06/cov.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[1]</sup></p>
-<p style="text-align: center;"><a href="http://ppke.snowl.net/files/2011/06/cov.png"></a>Forrás: saját készítésű ábra R-ben (katt a képre a nagyításhoz!)</p>
+<p><a href="/files/2011/06/cov.png" rel="external"><img class="aligncenter size-medium wp-image-1134" title="Kovariancia szemléltetése #1" src="/files/2011/06/cov-300x180.png" alt="" width="300" height="180" srcset="/files/2011/06/cov-300x180.png 300w, /files/2011/06/cov.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[1]</sup></p>
+<p style="text-align: center;"><a href="/files/2011/06/cov.png"></a>Forrás: saját készítésű ábra R-ben (katt a képre a nagyításhoz!)</p>
 <p>Az ábrán két folytonos változót látunk különböző gépkocsikra vonatkoztatva: a sebesség és a féktávolság (fixme!). Ránézésre egyértelműnek tűnik az a megállapítás, hogy gyorsabb gépjárműhöz nagyobb féktávolság tartozik. Ezt szeretnénk alátámasztani a kovariancia/korreláció meghatározásával.</p>
 <p>Első körben nézzük meg a változók szórását. A fenti ábrán két kiragadott gépkocsi adatainak a távolságát jelölik a kék és piros szakaszok az átlagos értékektől (fekete vonalak). Amennyiben minden esetben meghatározzuk ezeket a távolságokat, közelebb kerülünk az empirikus szórás meghatározásához:</p>
-<p><a href="http://ppke.snowl.net/files/2011/06/cov2.png" rel="external"><img class="aligncenter size-medium wp-image-1135" title="Kovariancia szemléltetése #2" src="http://ppke.snowl.net/files/2011/06/cov2-300x180.png" alt="" width="300" height="180" srcset="http://ppke.snowl.net/files/2011/06/cov2-300x180.png 300w, http://ppke.snowl.net/files/2011/06/cov2.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[2]</sup></p>
-<p style="text-align: center;"><a href="http://ppke.snowl.net/files/2011/06/cov2.png"></a>Forrás: saját készítésű ábra R-ben (katt a képre a nagyításhoz!)</p>
+<p><a href="/files/2011/06/cov2.png" rel="external"><img class="aligncenter size-medium wp-image-1135" title="Kovariancia szemléltetése #2" src="/files/2011/06/cov2-300x180.png" alt="" width="300" height="180" srcset="/files/2011/06/cov2-300x180.png 300w, /files/2011/06/cov2.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[2]</sup></p>
+<p style="text-align: center;"><a href="/files/2011/06/cov2.png"></a>Forrás: saját készítésű ábra R-ben (katt a képre a nagyításhoz!)</p>
 <p><a href="http://www.johndcook.com/blog/2010/06/17/covariance-and-law-of-cosines/"></a>Az átlagtól mért távolságok összegzése során a negatív és pozitív értékek &#8220;kioltják egymást&#8221;, így a szórás meghatározása során általában az eltérés négyzetével vagy olykor azok abszolútértékével számolunk: $$S^{*}=\sqrt{\frac{\sum_{i=1}^n (x_i-\bar{x})^2}{n-1}}$$</p>
 <p>Amennyiben az egyes tengelyeket (változóterekben) az átlagtól való négyzetes eltérések átlagát (magyarán: szórást) ábrázoljuk, úgy független változók esetében az együttes szórást is könnyen meghatározhatjuk:</p>
-<p><a href="http://ppke.snowl.net/files/2011/06/sdpythag.png" rel="external"><img class="aligncenter size-medium wp-image-1137" title="Pythagoras and covariance" src="http://ppke.snowl.net/files/2011/06/sdpythag-300x177.png" alt="" width="300" height="177" srcset="http://ppke.snowl.net/files/2011/06/sdpythag-300x177.png 300w, http://ppke.snowl.net/files/2011/06/sdpythag.png 325w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[3]</sup></p>
+<p><a href="/files/2011/06/sdpythag.png" rel="external"><img class="aligncenter size-medium wp-image-1137" title="Pythagoras and covariance" src="/files/2011/06/sdpythag-300x177.png" alt="" width="300" height="177" srcset="/files/2011/06/sdpythag-300x177.png 300w, /files/2011/06/sdpythag.png 325w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[3]</sup></p>
 <p style="text-align: center;">Forrás: <a href="http://www.johndcook.com/blog/2010/06/17/covariance-and-law-of-cosines/" rel="external">John D. Cock</a> <sup>[4]</sup></p>
 <p>Lévén, hogy a két változó független, a két szórás által bezárt szög az ábrán 90 fok, így az ismert tétel alapján: $$VAR(X+Y) = VAR(X) + VAR(Y)$$</p>
 <p>Amely összefüggés elméleti úton is könnyen bizonyítható: független változók esetében a kovariancia minden esetben 0, így annak nincs módosító hatása a fenteb bemutatott varianciára.</p>
 <p>Összefüggést mutató változók estében azonban az ábra módosul és a Pitagorasz-tétel nem alkalmazható:</p>
-<p><a href="http://ppke.snowl.net/files/2011/06/sdlawofcos.png" rel="external"><img class="aligncenter size-medium wp-image-1138" title="Pithagorasz and covariance 2" src="http://ppke.snowl.net/files/2011/06/sdlawofcos-300x128.png" alt="" width="300" height="128" srcset="http://ppke.snowl.net/files/2011/06/sdlawofcos-300x128.png 300w, http://ppke.snowl.net/files/2011/06/sdlawofcos.png 332w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[5]</sup></p>
+<p><a href="/files/2011/06/sdlawofcos.png" rel="external"><img class="aligncenter size-medium wp-image-1138" title="Pithagorasz and covariance 2" src="/files/2011/06/sdlawofcos-300x128.png" alt="" width="300" height="128" srcset="/files/2011/06/sdlawofcos-300x128.png 300w, /files/2011/06/sdlawofcos.png 332w" sizes="(max-width: 300px) 100vw, 300px" /></a> <sup>[5]</sup></p>
 <p style="text-align: center;">Forrás: <a href="http://www.johndcook.com/blog/2010/06/17/covariance-and-law-of-cosines/" rel="external">John D. Cock</a> <sup>[4]</sup></p>
 <p>Így a közös variancia meghatározása is módosul. További részletekkel kapcsolatban lásd az <a href="http://www.johndcook.com/blog/2010/06/17/covariance-and-law-of-cosines/" rel="external">eredeti forrást</a> <sup>[4]</sup>!<br />
 </p>
@@ -85,16 +85,16 @@
 			Daróczi Gergely honlapja: 
 
 			<strong dir="ltr">
-				http://ppke.snowl.net			</strong>
+							</strong>
 		</p>
 
 		<p>
 			URL a bejegyzéshez: 
 			<strong dir="ltr">
-				http://ppke.snowl.net/1133/matematikai-erdekessegek/a-kovariancia-geometriai-ertelmezese/			</strong>
+				/1133/matematikai-erdekessegek/a-kovariancia-geometriai-ertelmezese/			</strong>
 		</p>
 		
-					<p>A bejegyzésben található URL címek:<p style="margin: 2px 0;">[1] Kép: <b><span dir="ltr">http://ppke.snowl.net/files/2011/06/cov.png</span></b></p><p style="margin: 2px 0;">[2] Kép: <b><span dir="ltr">http://ppke.snowl.net/files/2011/06/cov2.png</span></b></p><p style="margin: 2px 0;">[3] Kép: <b><span dir="ltr">http://ppke.snowl.net/files/2011/06/sdpythag.png</span></b></p><p style="margin: 2px 0;">[4] John D. Cock: <b><span dir="ltr">http://www.johndcook.com/blog/2010/06/17/covariance-and-law-of-cosines/</span></b></p><p style="margin: 2px 0;">[5] Kép: <b><span dir="ltr">http://ppke.snowl.net/files/2011/06/sdlawofcos.png</span></b></p></p>
+					<p>A bejegyzésben található URL címek:<p style="margin: 2px 0;">[1] Kép: <b><span dir="ltr">/files/2011/06/cov.png</span></b></p><p style="margin: 2px 0;">[2] Kép: <b><span dir="ltr">/files/2011/06/cov2.png</span></b></p><p style="margin: 2px 0;">[3] Kép: <b><span dir="ltr">/files/2011/06/sdpythag.png</span></b></p><p style="margin: 2px 0;">[4] John D. Cock: <b><span dir="ltr">http://www.johndcook.com/blog/2010/06/17/covariance-and-law-of-cosines/</span></b></p><p style="margin: 2px 0;">[5] Kép: <b><span dir="ltr">/files/2011/06/sdlawofcos.png</span></b></p></p>
 		
 		<p style="text-align: right;" id="print-link">
 			<a href="#Print" onclick="window.print(); return false;" title="NYOMTATÁS">
